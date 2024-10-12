@@ -1,0 +1,12 @@
+name: Frist Workflow
+#Event that need to be invoked in order to run this workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+  #environment to run that job
+    runs-on: ubuntu-lastest
+    steps: 
+      - name: Print greeting
+        run: echo "Hello world"
+      - name: Print goodbye]
+        run: echo "Done - bye"
